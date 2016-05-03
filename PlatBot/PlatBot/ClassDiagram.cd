@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnimationHandler">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAACEAoAAAAIQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimationHandler.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attack">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAIAAAAEACEAAAAAEAAA=</HashCode>
+      <FileName>Attack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BGElement">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCQAAAgAAAAAAAIAAIAAAAAAAgAAAAAIAAAAAgA=</HashCode>
+      <FileName>BGElement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamagableObject">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DamagableObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="MobileObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.786" />
+        <Point X="4.25" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="DamagableObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.997" />
+        <Point X="1.25" Y="4.142" />
+        <Point X="3.312" Y="4.142" />
+        <Point X="3.312" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAAAAACAAAAAAAAAACAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Enemy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileObject">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAEAAAABKAIAAAAAABQgAAAAACAQAAAAA=</HashCode>
+      <FileName>MobileObject.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAAAAAAAAIAAAgAAAgAMAAAAAABQAAA=</HashCode>
+      <FileName>GameManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsManager">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABMAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GraphicsManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hitbox">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQIAAAEAACAAAAAIAAAAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Hitbox.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAQAAAAAAAAAAAIQAAAAAAAAAgCAAAAEAAAAAAA=</HashCode>
+      <FileName>Button.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEACQAkAAAAEgAAIACAABAABAABABQEAAAACEAAA=</HashCode>
+      <FileName>Level.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAgIAIAAAAAAAAIABAACAAAAAAEAAA=</HashCode>
+      <FileName>Menu.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="MobileObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.786" />
+        <Point X="4.25" Y="5.857" />
+        <Point X="3.396" Y="5.857" Type="JumpStart" />
+        <Point X="3.229" Y="5.857" Type="JumpEnd" />
+        <Point X="1.625" Y="5.857" />
+        <Point X="1.625" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="DamagableObject" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.997" />
+        <Point X="1.25" Y="4.077" />
+        <Point X="0.875" Y="4.077" />
+        <Point X="0.875" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQEgAACAAAACAAAAAAIAAACAAAABAAAAAAQAEAAA=</HashCode>
+      <FileName>Player.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAABAIAAAAAAAEAAA=</HashCode>
+      <FileName>State.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="Attack" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="8.954" />
+        <Point X="6.25" Y="10.125" />
+        <Point X="5" Y="10.125" />
+        <Point X="5" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAEIAA=</HashCode>
+      <FileName>Projectile.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hit">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAABAAAEAAA=</HashCode>
+      <FileName>Hit.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HPBar">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAIAAAAAAAAgAAAAAAAAAAAgA=</HashCode>
+      <FileName>HPBar.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreBar">
+    <Position X="11.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAIAIEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScoreBar.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AnimationState">
+    <Position X="10" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AnimationHandler.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BgId">
+    <Position X="11.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAIAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>BGElement.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
